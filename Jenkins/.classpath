@@ -6,3 +6,5 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
+write a run an ansible playboook and automate software installation with ansible
+write a git commands to clone a remote repository make changes , merge and commit to a new branch on remote repository
