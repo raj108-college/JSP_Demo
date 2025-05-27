@@ -29,29 +29,3 @@
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
 </projectDescription>
-Example Playbook Breakdown
-name: Describes what the playbook does.
-
-hosts: Specifies which group of hosts in the inventory the playbook will apply to (e.g., webservers).
-
-become: Ensures that the playbook runs as the root user (useful for installing software).
-
-tasks: Lists the individual tasks the playbook will perform.
-
-Task 1: Update apt cache
-If the target system is a Debian-based OS (Ubuntu, Debian), the task updates the package cache using apt.
-
-Task 2: Install nginx
-The task installs nginx using the apt module. You can change this to the relevant package manager depending on your system (e.g., yum for RHEL/CentOS).
-
-Task 3: Start and enable nginx
-This task ensures that the nginx service is started and enabled to start on boot.
-
-Step 6: Customization for Different Software
-If you want to install different software, like apache or mysql, you just need to change the software package name and adjust any configuration options.
-
-For example, installing apache instead of nginx:
-
-yaml
-Copy
-Edit
